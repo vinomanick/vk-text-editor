@@ -1,0 +1,13 @@
+build
+coverage
+public
+node_modules
+.parcel-cache
+package.json
+yarn.lock
+.vscode
+.husky
+.git
+
+# Ignore all HTML files:
+*.html

@@ -1,0 +1,44 @@
+{
+  "name": "vk-text-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://@github.com/vinomanick/vk-text-editor.git",
+  "author": "vinomanick <vino1393@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.36",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.27.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "2.4.1"
+  },
+  "lint-staged": {
+    "**/*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "**/*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+}
