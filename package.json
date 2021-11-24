@@ -1,7 +1,7 @@
 {
   "name": "vk-text-editor",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "",
   "repository": "https://@github.com/vinomanick/vk-text-editor.git",
   "author": "vinomanick <vino1393@gmail.com>",
   "license": "MIT",
