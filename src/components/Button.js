@@ -1,4 +1,5 @@
 import "./Button.css";
+import PropTypes from "prop-types";
 
 const Button = (props) => {
   return (
@@ -7,7 +8,6 @@ const Button = (props) => {
       data-id={props.id}
       type={props.type}
       name={props.name}
-      value={props.value}
       disabled={props.disabled}
       onClick={props.handleClick}
     >
@@ -15,4 +15,14 @@ const Button = (props) => {
     </button>
   );
 };
+
+Button.PropTypes = {
+  kind: PropTypes.string,
+  id: PropTypes.string,
+  type: PropTypes.string,
+  name: PropTypes.string,
+  disabled: PropTypes.bool,
+  handleClick: PropTypes.func,
+};
+
 export default Button;
