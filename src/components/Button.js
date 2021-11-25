@@ -9,7 +9,7 @@ const Button = (props) => {
       type={props.type}
       name={props.name}
       disabled={props.disabled}
-      onClick={props.handleClick}
+      onClick={props.onClick}
     >
       <h4>{props.label}</h4>
     </button>
@@ -22,7 +22,7 @@ Button.propTypes = {
   type: PropTypes.string,
   name: PropTypes.string,
   disabled: PropTypes.bool,
-  handleClick: PropTypes.func,
+  onClick: PropTypes.func,
 };
 
 export default Button;
