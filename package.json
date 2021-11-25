@@ -1,6 +1,6 @@
 {
   "name": "vk-text-editor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "https://@github.com/vinomanick/vk-text-editor.git",
   "author": "vinomanick <vino1393@gmail.com>",
   "license": "MIT",
@@ -41,5 +41,8 @@
     "**/*.{js,ts,tsx}": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
   }
 }
