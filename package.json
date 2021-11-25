@@ -1,6 +1,6 @@
 {
   "name": "vk-text-editor",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "repository": "https://@github.com/vinomanick/vk-text-editor.git",
   "author": "vinomanick <vino1393@gmail.com>",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">= 12"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
