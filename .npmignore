@@ -1,0 +1,10 @@
+src/
+.vscode/
+husky/
+.parcel-cache/
+.eslintignore
+.eslintrc.json
+.gitignore
+.nvmrc
+.prettierignore
+.prettierrc.json

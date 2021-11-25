@@ -1,5 +1,4 @@
-import ReactDOM from "react-dom";
-import { App } from "./App";
+import VkBadge from "./components/Badge";
+import VkButton from "./components/Button";
 
-const app = document.getElementById("app");
-ReactDOM.render(<App />, app);
+export { VkBadge, VkButton };

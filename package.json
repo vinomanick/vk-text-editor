@@ -1,15 +1,16 @@
 {
   "name": "vk-text-editor",
-  "version": "1.0.0",
-  "main": "",
+  "version": "1.0.1",
   "repository": "https://@github.com/vinomanick/vk-text-editor.git",
   "author": "vinomanick <vino1393@gmail.com>",
   "license": "MIT",
-  "source": "src/index.html",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
+    "build": "rm -rf dist && parcel build",
     "format": "prettier --write .",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
