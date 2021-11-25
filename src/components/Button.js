@@ -16,7 +16,7 @@ const Button = (props) => {
   );
 };
 
-Button.PropTypes = {
+Button.propTypes = {
   kind: PropTypes.string,
   id: PropTypes.string,
   type: PropTypes.string,
