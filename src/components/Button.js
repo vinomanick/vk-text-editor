@@ -7,7 +7,6 @@ const Button = (props) => {
       className={`btn btn--${props.kind} CTA`}
       data-id={props.id}
       type={props.type}
-      name={props.name}
       disabled={props.disabled}
       onClick={props.onClick}
     >
@@ -20,7 +19,6 @@ Button.propTypes = {
   kind: PropTypes.string,
   id: PropTypes.string,
   type: PropTypes.string,
-  name: PropTypes.string,
   disabled: PropTypes.bool,
   onClick: PropTypes.func,
 };
